@@ -156,7 +156,7 @@ let ethhover, ltchover
         0.055 130 59 ETH <span class="text-blue-500">($1275)</span>
        </p>
 
-       <p class="text-[#828282] lg:text-xl text-lg py-6">
+       <p class="text-[#828282] lg:text-xl text-sm py-6">
         Revenue will change based on mining difficulty and Ethereum price.
        </p>
     </div>

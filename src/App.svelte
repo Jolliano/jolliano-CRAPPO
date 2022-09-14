@@ -8,7 +8,7 @@ let ethhover, ltchover
 
 <main class="font-[Rubik] bg-[#0D0D2B]">
     <!--The Header Section-->
-  <header class="h-screen py-8 bg-[url('../assets/hero-ribbon-1.png')] bg-left">
+  <header class="lg:h-screen py-8 bg-[url('../assets/hero-ribbon-1.png')] bg-left">
     <nav class="flex w-10/12 mx-auto justify-between p-0">
         <div class="p-4 px-0">
             <img src="../assets/logo.svg" alt="">
@@ -55,7 +55,7 @@ let ethhover, ltchover
   </header>
   <!--Section 2-->
   <section class="  bg-cover bg-no-repeat py-24 bg-top  bg-[url('../assets/whyCAPPRO.svg')]">
-  <section class="h-screen w-10/12 mx-auto text-white ">
+  <section class="lg:h-screen w-10/12 mx-auto text-white ">
     <section class="flex justify-between py-18">
         <div class="basis-4/12 text-6xl leading-[60px] flex place-items-center">
             <div class="mr-4">

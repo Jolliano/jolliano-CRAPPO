@@ -161,11 +161,11 @@ let ethhover, ltchover
        </p>
     </div>
     <div class="lg:w-10/12 w-full mx-auto lg:pt-96 pt-[36rem] pb-12 text-black text-center lg:text-6xl text-3xl leading-relaxed">
-        <p class="py-12 lg:w-8/12 w-full lg:mx-auto mx-3 font-bold">Trade securely and market the high growth cryptocurrencies.</p>
+        <p class="py-12 lg:w-8/12 w-full mx-auto lg:px-0 px-3 font-bold">Trade securely and market the high growth cryptocurrencies.</p>
         <div class="flex justify-between lg:flex-row flex-col">
             <div class="basis-[30%] place-items-center grid py-12 rounded-3xl mb-12 lg:mb-0 px-6 lg:mx-0 mx-6" class:btchover>
-                <img src="../assets/bitcon.png" alt="" class="mt-6 mb-12">
-                <div class="flex place-items-center mb-12">
+                <img src="../assets/bitcon.png" alt="" class="lg:mt-6 mt-2 lg:mb-12 mb-4">
+                <div class="flex place-items-center lg:mb-12 mb-6">
                     <div class="lg:text-4xl text-2xl font-bold px-4">
                         Bitcoin
                     </div>
@@ -173,7 +173,7 @@ let ethhover, ltchover
                         BTC
                     </div>
                 </div>
-                <p class="lg:text-2xl text-xl text-[#828282] mb-6">
+                <p class="lg:text-2xl text-xl text-[#828282] lg:mb-6 mb-2">
                     Digital currency in which a record of transactions is maintained.
                 </p>
                 <button on:click="{() => btchover = !btchover}"  class="mt-18 flex place-items-center p-4 py-4 rounded-[32px] bg-transparent h-fit leading-none" id="manner">

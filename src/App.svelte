@@ -161,7 +161,7 @@ let ethhover, ltchover
        </p>
     </div>
     <div class="lg:w-10/12 w-full mx-auto lg:pt-96 pt-[36rem] pb-12 text-black text-center lg:text-6xl text-3xl leading-relaxed">
-        <p class="py-12 lg:w-8/12 w-full mx-auto font-bold">Trade securely and market the high growth cryptocurrencies.</p>
+        <p class="py-12 lg:w-8/12 w-full lg:mx-auto mx-3 font-bold">Trade securely and market the high growth cryptocurrencies.</p>
         <div class="flex justify-between lg:flex-row flex-col">
             <div class="basis-[30%] place-items-center grid py-12 rounded-3xl mb-12 lg:mb-0 px-6 lg:mx-0 mx-6" class:btchover>
                 <img src="../assets/bitcon.png" alt="" class="mt-6 mb-12">

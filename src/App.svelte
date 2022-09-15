@@ -101,17 +101,17 @@ let ethhover, ltchover
         </div>
     </section>
     <main class="flex justify-between lg:py-32 py-4 lg:flex-row flex-col-reverse">
-        <div class="basis-[55%] bg-[url('../assets/why-img.png')] bg-cover bg-no-repeat min-h-[400px]">
+        <div class="basis-[55%] bg-[url('../assets/why-img.png')] lg:bg-cover bg-contain bg-no-repeat bg-center md:min-h-[400px] min-h-[300px]">
 
         </div>
-        <div class="basis-[40%] lg:py-36 py-12 lg:pb-16 pb-4 lg:text-left text-center">
-            <h2 class="lg:text-5xl text-3xl font-bold leading-[80px] ">
+        <div class="basis-[40%] lg:py-36 lg:py-12 py-3 lg:pb-16 pb-4 lg:text-left text-center">
+            <h2 class="lg:text-5xl text-2xl font-bold lg:leading-[80px] leading-tight ">
                 Why you should choose CRAPPO
             </h2>
-            <p class="text-[#E0E0E0] my-6 text-xl lg:w-3/4 w-full">
+            <p class="text-[#E0E0E0] lg:my-6 my-3 lg:text-xl text-lg lg:w-3/4 w-full">
                 Experience the next generation cryptocurrency platform. No financial borders, extra fees, and fake reviews.
             </p>
-            <button class="lg:my-6 my-3 bg-[#3671E9] py-4 px-6 rounded-full font-bold text-lg">
+            <button class="lg:my-6 my-3 bg-[#3671E9] py-4 px-6 rounded-full font-bold lg:text-lg text-md">
                 Find Out More
             </button>
         </div>

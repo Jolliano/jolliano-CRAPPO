@@ -261,27 +261,27 @@ let ethhover, ltchover
 
         </div>
         <div class="basis-[45%] py-8 lg:my-32 lg:mb-32 mb-12">
-            <h2 class="text-4xl font-bold">
+            <h2 class="lg:text-4xl text-2xl font-bold">
                 Detailed Statistics
             </h2>
-            <p class="text-xl lg:py-12 py-6 lg:w-[70%] text-[#E0E0E0]">
+            <p class="lg:text-xl text-lg lg:py-12 py-6 lg:w-[70%] text-[#E0E0E0]">
                 View all mining related information in realtime, at any point at any location and decide which polls you want to mine in.
             </p>
-            <button class="mt-4 bg-[#3671E9] py-4 px-6 rounded-full font-bold text-lg">
+            <button class="mt-4 bg-[#3671E9] py-4 px-6 rounded-full font-bold lg:text-lg text-md">
                 Learn More
             </button>
         </div>
     </div>
 
-    <div class="flex justify-between text-white lg:py-16 lg:pb-16 pb-0 lg:mt-24 mt-0 lg:flex-row flex-col">
-        <div class="basis-[40%] pb-8 my-0">
-            <h2 class="text-4xl font-bold w-[80%]">
+    <div class="flex justify-between text-white lg:py-16 py-2 lg:pb-16 pb-0 lg:mt-24 mt-0 lg:flex-row flex-col">
+        <div class="basis-[40%] lg:pb-8 pb-2 my-0">
+            <h2 class="lg:text-4xl text-2xl font-bold w-[80%]">
                 Grow your profit and track your investments
             </h2>
-            <p class="text-xl lg:py-12 py-6 lg:w-[80%] text-[#E0E0E0]">
+            <p class="lg:text-xl text-lg lg:py-12 py-6 lg:w-[80%] text-[#E0E0E0]">
                 Use advanced analytical tools. Clear TradingView charts let you track current and historical profit investments.
             </p>
-            <button class="mt-4 bg-[#3671E9] py-4 px-6 lg:mb-0 mb-8 rounded-full font-bold text-lg">
+            <button class="mt-4 bg-[#3671E9] py-4 px-6 lg:mb-0 mb-8 rounded-full font-bold lg:text-lg text-md">
                 Learn More
             </button>
         </div>
@@ -294,7 +294,7 @@ let ethhover, ltchover
 
 
   <!--Newsletter section-->
-  <section class="bg-gradient-to-b from-[#2B076E] to-[#0D0D2B] py-24">
+  <section class="bg-gradient-to-b from-[#2B076E] to-[#0D0D2B] lg:py-24 py-8">
     <section class="flex justify-between w-10/12 mx-auto bg-[url('../assets/newsletter-box.png')] bg-cover rounded-3xl py-10 text-white lg:flex-row flex-col">
         <div class="basis-1/3">
             <h2 class="lg:text-5xl text-3xl font-bold py-6 lg:pl-12 lg:0 lg:text-left text-center">
@@ -317,11 +317,9 @@ let ethhover, ltchover
         </div>
     </section>
   </section>
-
-
   
   <!--Four Column Section-->
-  <section class="br-[#2B076E] py-24 w-10/12 mx-auto flex justify-between text-white lg:flex-row flex-col  lg:text-left text-center ">
+  <section class="br-[#2B076E] lg:py-24 py-8 w-10/12 mx-auto flex justify-between text-white lg:flex-row flex-col  lg:text-left text-center ">
     <!--CRAPPO LOGO-->
     <div class="lg:py-0 py-6 basis-1/6 grid place-items-center">
         <img src="../assets/logo.svg" alt="" class="w-44">
@@ -332,22 +330,22 @@ let ethhover, ltchover
        <h2 class="text-3xl pb-2">
             Quick Links
        </h2>
-        <a href="" class="block text-[#F2F2F2] text-xl py-2">Home</a>
-        <a href="" class="block text-[#F2F2F2] text-xl py-2">Products</a>
-        <a href="" class="block text-[#F2F2F2] text-xl py-2">About</a>
-        <a href="" class="block text-[#F2F2F2] text-xl py-2">Features</a>
-        <a href="" class="block text-[#F2F2F2] text-xl py-2">Contact</a>
+        <a href="" class="block text-[#F2F2F2] text-xl py-1">Home</a>
+        <a href="" class="block text-[#F2F2F2] text-xl py-1">Products</a>
+        <a href="" class="block text-[#F2F2F2] text-xl py-1">About</a>
+        <a href="" class="block text-[#F2F2F2] text-xl py-1">Features</a>
+        <a href="" class="block text-[#F2F2F2] text-xl py-1">Contact</a>
     </div>
     <!--Resources Column-->
     <div class="lg:py-0 py-6 basis-1/6">
         <h2 class="text-3xl pb-2">
             Resources  
        </h2>
-        <a href="" class="block text-[#F2F2F2] text-xl py-2">Download Whitepapper</a>
-        <a href="" class="block text-[#F2F2F2] text-xl py-2">Smart Token</a>
-        <a href="" class="block text-[#F2F2F2] text-xl py-2">Blockchain Explorer</a>
-        <a href="" class="block text-[#F2F2F2] text-xl py-2">Crypto API</a>
-        <a href="" class="block text-[#F2F2F2] text-xl py-2">Interest</a>
+        <a href="" class="block text-[#F2F2F2] text-xl py-1">Download Whitepapper</a>
+        <a href="" class="block text-[#F2F2F2] text-xl py-1">Smart Token</a>
+        <a href="" class="block text-[#F2F2F2] text-xl py-1">Blockchain Explorer</a>
+        <a href="" class="block text-[#F2F2F2] text-xl py-1">Crypto API</a>
+        <a href="" class="block text-[#F2F2F2] text-xl py-1">Interest</a>
     </div>
     <!--Payment Methods-->
     <div class="lg:py-0 py-6  basis-2/6">

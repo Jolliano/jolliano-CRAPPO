@@ -133,10 +133,10 @@ let ethhover, ltchover
 
   <!--The White Part Begigns-->
   <section class="bg-[#fbfafd]">
-    <div class="bg-[#FBFCFE] lg:w-8/12 w-11/12 mx-auto py-16 px-12 -mt-48 absolute left-1/2 transform -translate-x-1/2 rounded-2xl shadow-lg">
-       <div class="flex justify-between text-black lg:text-3xl text-xl font-semibold pb-12 lg:flex-row flex-col">
+    <div class="bg-[#FBFCFE] lg:w-8/12 w-11/12 mx-auto lg:py-16 py-8 px-12 -mt-48 absolute left-1/2 transform -translate-x-1/2 rounded-2xl shadow-lg">
+       <div class="flex justify-between text-black lg:text-3xl text-xl font-semibold lg:pb-12 pb-3 lg:flex-row flex-col">
         <input type="text" value="Enter your hash rate" class="lg:w-6/12 w-full text-black border-b-4 focus:outline-0 lg:m-0 my-6">
-        <select name="speed" id="" class="lg:w-2/12 w-full focus:outline-0 lg:mt-0 my-6">
+        <select name="speed" id="" class="lg:w-2/12 w-full focus:outline-0 lg:mt-0 lg:my-6 my-2">
             <option value="">TH/s</option>
             <option value="">H/s</option>
             <option value="">KH/s</option>
@@ -148,7 +148,7 @@ let ethhover, ltchover
        </p>
        </div>
 
-       <p class="py-8 text-blue-500 md:text-xl text-lg font-bold">
+       <p class="lg:py-8 py-2 text-blue-500 md:text-xl text-lg font-bold">
         ESTIMATED 24 HOUR REVENUE:
        </p>
 
@@ -156,7 +156,7 @@ let ethhover, ltchover
         0.055 130 59 ETH <span class="text-blue-500">($1275)</span>
        </p>
 
-       <p class="text-[#828282] lg:text-xl text-sm py-6">
+       <p class="text-[#828282] lg:text-xl text-sm lg:py-6 py-2">
         Revenue will change based on mining difficulty and Ethereum price.
        </p>
     </div>

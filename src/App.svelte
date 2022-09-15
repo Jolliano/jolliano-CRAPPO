@@ -94,7 +94,7 @@ let btchover, ethhover, ltchover, mobilemenu
                 <div class="bg-white text-[#3671E9] ml-2 lg:mr-6 mr-4 py-2 lg:px-4 px-3 rounded-full">></div>
             </button>
         </div>
-        <div class="bg-[url('../assets/hero-img.png')] basis-1/2 bg-no-repeat bg-center bg-contain min-h-[300px]">
+        <div class="animate-in slide-in-from-right delay-500 duration-1000 bg-[url('../assets/hero-img.png')] basis-1/2 bg-no-repeat bg-center bg-contain min-h-[300px]">
         </div>
     </section>
   </header>

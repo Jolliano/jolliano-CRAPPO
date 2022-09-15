@@ -36,7 +36,7 @@ let ethhover, ltchover
         <div class="basis-1/2 lg:py-24 py-6">
             <!---Value Proposition-->
             <div class="bg-white bg-opacity-10 py-3 pr-6 rounded-[32px] my-6 lg:mb-14 mb-3 w-fit lg:text-2xl text-[12px] text-[#b0b0b0] ">
-                <span class="bg-white text-black font-bold px-6 mr-4 py-3 rounded-[32px]">75% SAVE</span> For the Black Friday Weekend
+                <span class="bg-white text-black font-bold px-6 lg:mr-4 mr-2 py-3 rounded-[32px]">75% SAVE</span> For the Black Friday Weekend
             </div>
             <p class="lg:text-[80px] text-3xl lg:font-bold">
                 Fastest & Secure Platform To Invest In Crypto
@@ -56,8 +56,8 @@ let ethhover, ltchover
 <!---MOBILE DONE-->
   <!--Section 2-->
   <section class="  bg-cover bg-no-repeat lg:py-24 py-6 bg-top  bg-[url('../assets/whyCAPPRO.svg')]">
-  <section class="lg:h-screen w-10/12 mx-auto text-white ">
-    <section class="flex justify-between lg:py-18 py-6 lg:flex-row flex-col">
+  <section class="lg:h-screen lg:w-10/12 w-full mx-auto text-white ">
+    <section class="flex justify-between lg:py-18 py-6 lg:flex-row flex-col lg-w-full w-11/12 mx-auto">
         <div class="basis-4/12 lg:leading-[60px] leading-none flex place-items-center py-3">
             <div class="mr-4">
                 <img src="../assets/icon bars.svg" />
@@ -105,11 +105,11 @@ let ethhover, ltchover
         <div class="basis-[55%] bg-[url('../assets/why-img.png')] lg:bg-cover bg-contain bg-no-repeat bg-center md:min-h-[400px] min-h-[300px]">
 
         </div>
-        <div class="basis-[40%] lg:py-36 lg:py-12 py-3 lg:pb-16 pb-4 lg:text-left text-center">
+        <div class="basis-[40%] lg:py-36 md:py-12 py-3 px-3 lg:pb-16 pb-4 lg:text-left text-center">
             <h2 class="lg:text-5xl text-2xl font-bold lg:leading-[80px] leading-tight ">
                 Why you should choose CRAPPO
             </h2>
-            <p class="text-[#E0E0E0] lg:my-6 my-3 lg:text-xl text-lg lg:w-3/4 w-full">
+            <p class="text-[#E0E0E0] lg:my-6 my-3 lg:text-xl text-md lg:w-3/4 w-full">
                 Experience the next generation cryptocurrency platform. No financial borders, extra fees, and fake reviews.
             </p>
             <button class="lg:my-6 my-3 bg-[#3671E9] py-4 px-6 rounded-full font-bold lg:text-lg text-md">
@@ -133,7 +133,7 @@ let ethhover, ltchover
 
   <!--The White Part Begigns-->
   <section class="bg-[#fbfafd]">
-    <div class="bg-[#FBFCFE] lg:w-8/12 w-11/12 mx-auto lg:py-16 py-8 px-12 -mt-48 absolute left-1/2 transform -translate-x-1/2 rounded-2xl shadow-lg">
+    <div class="bg-[#FBFCFE] lg:w-8/12 w-11/12 mx-auto lg:py-16 py-8 lg:px-12 px-6 -mt-48 absolute left-1/2 transform -translate-x-1/2 rounded-2xl shadow-lg">
        <div class="flex justify-between text-black lg:text-3xl text-xl font-semibold lg:pb-12 pb-3 lg:flex-row flex-col">
         <input type="text" value="Enter your hash rate" class="lg:w-6/12 w-full text-black border-b-4 focus:outline-0 lg:m-0 my-6 bg-transparent">
         <select name="speed" id="" class="lg:w-2/12 w-full focus:outline-0 lg:mt-0 lg:my-6 my-2">
@@ -152,7 +152,7 @@ let ethhover, ltchover
         ESTIMATED 24 HOUR REVENUE:
        </p>
 
-       <p class="text-black lg:text-[40px] xl:text-3xl xs:text-2xl font-bold">
+       <p class="text-black lg:text-[40px] font-bold">
         0.055 130 59 ETH <span class="text-blue-500">($1275)</span>
        </p>
 
@@ -160,7 +160,7 @@ let ethhover, ltchover
         Revenue will change based on mining difficulty and Ethereum price.
        </p>
     </div>
-    <div class="lg:w-10/12 w-full mx-auto lg:pt-96 pt-44 pb-12 text-black text-center lg:text-6xl text-3xl leading-relaxed">
+    <div class="lg:w-10/12 w-full mx-auto lg:pt-96 pt-56 pb-12 text-black text-center lg:text-6xl text-3xl leading-relaxed">
         <p class="py-12 lg:w-8/12 w-full mx-auto lg:px-0 px-3 font-bold">Trade securely and market the high growth cryptocurrencies.</p>
         <div class="flex justify-between lg:flex-row flex-col">
             <div class="basis-[30%] place-items-center grid lg:py-12 py-6 rounded-3xl mb-12 lg:mb-0 px-6 lg:mx-0 mx-6" class:btchover>

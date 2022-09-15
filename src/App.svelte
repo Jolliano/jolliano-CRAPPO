@@ -297,10 +297,10 @@ let ethhover, ltchover
   <section class="bg-gradient-to-b from-[#2B076E] to-[#0D0D2B] py-24">
     <section class="flex justify-between w-10/12 mx-auto bg-[url('../assets/newsletter-box.png')] bg-cover rounded-3xl py-10 text-white lg:flex-row flex-col">
         <div class="basis-1/3">
-            <h2 class="lg:text-5xl text-3xl font-bold py-6 pl-12">
+            <h2 class="lg:text-5xl text-3xl font-bold py-6 lg:pl-12 lg:0 lg:text-left text-center">
                 Start mining now
             </h2>
-            <p class="py-5 lg:pt-5 pt-0 pl-12 lg:pr-0 pr-12 lg:text-2xl text-lg">
+            <p class="py-5 lg:pt-5 pt-0 lg:pl-12 lg:px-0 px-4 lg:text-2xl text-lg lg:text-left text-center">
                 Join now with CRAPPO to get the latest news and start mining now
             </p>
         </div>

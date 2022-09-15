@@ -54,46 +54,46 @@ let ethhover, ltchover
     </section>
   </header>
   <!--Section 2-->
-  <section class="  bg-cover bg-no-repeat py-24 bg-top  bg-[url('../assets/whyCAPPRO.svg')]">
+  <section class="  bg-cover bg-no-repeat lg:py-24 py-6 bg-top  bg-[url('../assets/whyCAPPRO.svg')]">
   <section class="lg:h-screen w-10/12 mx-auto text-white ">
-    <section class="flex justify-between py-18">
-        <div class="basis-4/12 text-6xl leading-[60px] flex place-items-center">
+    <section class="flex justify-between lg:py-18 py-6 lg:flex-row flex-col">
+        <div class="basis-4/12 lg:leading-[60px] leading-none flex place-items-center py-3">
             <div class="mr-4">
                 <img src="../assets/icon bars.svg" />
             </div>
             <div>
-                <h2 class="font-bold">
+                <h2 class="font-bold lg:text-6xl text-2xl">
                     $30B
                 </h2>
-                <p class="text-lg">
+                <p class="lg:text-lg">
                     Digital Currency exchanged
                 </p>
             </div>
             
         </div>
-        <div class="basis-4/12 text-6xl leading-[60px] flex place-items-center">
+        <div class="basis-4/12 flex place-items-center py-3">
             <div class="mr-4">
                 <img src="../assets/icon bars.svg" />
             </div>
             <div>
-                <h2 class="font-bold">
+                <h2 class="font-bold lg:text-6xl text-2xl">
                     10M+
                 </h2>
-                <p class="text-lg">
+                <p class="lg:text-lg">
                     Trusted wallets investors
                 </p>
             </div>
             
         </div>
-        <div class="basis-3/12 text-6xl leading-[60px] flex place-items-center">
+        <div class="basis-3/12 flex place-items-center py-3">
             <div class="mr-4">
                 <img src="../assets/icon bars.svg" />
             </div>
             <div>
-                <h2 class="font-bold">
+                <h2 class="font-bold lg:text-6xl text-2xl">
                     195
                 </h2>
-                <p class="text-lg">
+                <p class="lg:text-lg">
                     Countries supported
                 </p>
             </div>
@@ -247,7 +247,7 @@ let ethhover, ltchover
             <p class="lg:text-xl text-lg lg:py-12 py-6 text-[#E0E0E0]">
                 Get full statistic information about the behaviour of buyers and sellers will help you to make the decision. 
             </p>
-            <button class="lg:my-12 my-4 lg:mb-36 mb-12 bg-[#3671E9] py-4 px-6 rounded-full font-bold lg:text-lg text-md">
+            <button class="lg:my-12 my-4 lg:mb-36 mb-12 bg-[#3671E9] py-4 px-6 rounded-full font-bold lg:text-lg">
                 Learn More
             </button>
         </div>
@@ -267,7 +267,7 @@ let ethhover, ltchover
             <p class="lg:text-xl text-lg lg:py-12 py-6 lg:w-[70%] text-[#E0E0E0]">
                 View all mining related information in realtime, at any point at any location and decide which polls you want to mine in.
             </p>
-            <button class="mt-4 bg-[#3671E9] py-4 px-6 lg:mb-0 mb-8  rounded-full font-bold lg:text-lg text-md">
+            <button class="mt-4 bg-[#3671E9] py-4 px-6 lg:mb-0 mb-8  rounded-full font-bold lg:text-lg">
                 Learn More
             </button>
         </div>
@@ -281,7 +281,7 @@ let ethhover, ltchover
             <p class="lg:text-xl text-lg lg:py-12 py-6 lg:w-[80%] text-[#E0E0E0]">
                 Use advanced analytical tools. Clear TradingView charts let you track current and historical profit investments.
             </p>
-            <button class="mt-4 bg-[#3671E9] py-4 px-6 lg:mb-0 mb-8 rounded-full font-bold lg:text-lg text-md">
+            <button class="mt-4 bg-[#3671E9] py-4 px-6 lg:mb-0 mb-8 rounded-full font-bold lg:text-lg">
                 Learn More
             </button>
         </div>
@@ -310,7 +310,7 @@ let ethhover, ltchover
                 <input type="text" value="Enter your mail" class="bg-transparent mx-auto lg:text-2xl text-lg border-b-2 focus:outline-0 lg:mb-0 mb-4">
             </div>
             <div>
-                <button class="bg-white text-[#3671E9] py-4 px-6 rounded-full font-bold lg:text-2xl text-md">
+                <button class="bg-white text-[#3671E9] py-4 px-6 rounded-full font-bold lg:text-2xl">
                     Subscribe
                 </button>
             </div>

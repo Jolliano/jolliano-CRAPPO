@@ -122,12 +122,12 @@ let ethhover, ltchover
   <!---MOBILE DONE-->
   
   <!--Check How Much-->
-  <section class="lg:pt-48 pt-6 lg:pb-72 pb-52 text-white text-center">
+  <section class="lg:pt-48 pt-6 lg:pb-72 pb-52 px-2 text-white text-center">
     <h2 class="lg:text-6xl text-3xl font-bold">
         Check how much you earn
     </h2>
-    <p class="lg:py-12 py-4 text-[#E0E0E0] lg:text-2xl text-xl">
-        Let’s check your hash rate to see how much you will earn today,<br>Exercitation veniam consequat sunt nostrud amet.
+    <p class="lg:py-12 py-4 text-[#E0E0E0] lg:text-2xl text-lg">
+        Let’s check your hash rate to see how much you will earn today, <br class="lg:block hidden">Exercitation veniam consequat sunt nostrud amet.
     </p>
   </section>
 
@@ -160,7 +160,7 @@ let ethhover, ltchover
         Revenue will change based on mining difficulty and Ethereum price.
        </p>
     </div>
-    <div class="lg:w-10/12 w-full mx-auto lg:pt-96 pt-[36] pb-12 text-black text-center lg:text-6xl text-3xl leading-relaxed">
+    <div class="lg:w-10/12 w-full mx-auto lg:pt-96 pt-44 pb-12 text-black text-center lg:text-6xl text-3xl leading-relaxed">
         <p class="py-12 lg:w-8/12 w-full mx-auto lg:px-0 px-3 font-bold">Trade securely and market the high growth cryptocurrencies.</p>
         <div class="flex justify-between lg:flex-row flex-col">
             <div class="basis-[30%] place-items-center grid lg:py-12 py-6 rounded-3xl mb-12 lg:mb-0 px-6 lg:mx-0 mx-6" class:btchover>

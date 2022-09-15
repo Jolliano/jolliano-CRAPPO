@@ -275,7 +275,7 @@ let ethhover, ltchover
 
     <div class="flex justify-between text-white lg:py-16 py-2 lg:pb-16 pb-0 lg:mt-24 mt-0 lg:flex-row flex-col">
         <div class="basis-[40%] lg:pb-8 pb-2 my-0">
-            <h2 class="lg:text-4xl text-2xl font-bold w-[80%]">
+            <h2 class="lg:text-4xl text-2xl font-bold lg:w-[80%] w-full">
                 Grow your profit and track your investments
             </h2>
             <p class="lg:text-xl text-lg lg:py-12 py-6 lg:w-[80%] text-[#E0E0E0]">
@@ -285,7 +285,7 @@ let ethhover, ltchover
                 Learn More
             </button>
         </div>
-        <div class="basis-[60%] bg-[url('../assets/feature-3-img.png')] bg-contain bg-no-repeat min-h-[334px] mt-0">
+        <div class="basis-[60%] bg-[url('../assets/feature-3-img.png')] bg-contain bg-no-repeat lg:min-h-[334px] min-h-[134px] mt-0">
 
         </div>
     </div>

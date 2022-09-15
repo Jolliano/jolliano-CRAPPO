@@ -1,19 +1,22 @@
 <script>
-	import { faHome, faBook, faPencilAlt, faDollar, faInfo, faBus, faChalkboardTeacher, faUser } from '@fortawesome/free-solid-svg-icons';
-import Fa from 'svelte-fa'
-import { faWhatsapp, faTwitter } from '@fortawesome/free-brands-svg-icons'
-let btchover
-let ethhover, ltchover
+let btchover, ethhover, ltchover, mobilemenu
+
+// Grab HTML Elements
+    const btn = document.getElementById("mobile-menu-button");
+	const menu = document.getElementById("mobile-menu");
+
+	// Add Event Listeners
+	
 </script>
 
 <main class="font-[Rubik] bg-[#0D0D2B]">
     <!--The Header Section-->
   <header class="lg:h-screen lg:py-8 py-2 bg-[url('../assets/hero-ribbon-1.png')] bg-left">
-    <nav class="flex w-10/12 mx-auto justify-between p-0">
-        <div class="p-4 px-0">
+    <nav class="flex lg:w-10/12 w-full mx-auto justify-between p-o">
+        <div class="p-4 px-0 pl-6">
             <img src="../assets/logo.svg" alt="">
         </div>
-        <div class="flex text-white place-items-center text-xl">
+        <div class=" hidden md:flex text-white place-items-center text-xl pr-6">
             <a href="" class="block mx-4 p-4">Products</a>
             <a href="" class="block mx-4 p-4">
                 Features
@@ -31,6 +34,48 @@ let ethhover, ltchover
                 Register
             </a>
         </div>
+        <!--Hamburger Icon-->
+        <div class="md:hidden flex items-center pr-6">
+            <button on:click="{() => mobilemenu = !mobilemenu}"  class="outline-none" id="mobile-menu-button">
+                <svg
+                    class="w-6 h-6 text-white"
+                    x-show="!showMenu"
+                    fill="none"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                >
+                <path d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+            </button>
+        </div>
+        <!--Mobile Menu-->
+        {#if mobilemenu}
+        <div class="bg-[#0D0D2B] text-white justify-center text-center h-screen items-center text-2xl fixed w-full flex flex-col z-50">
+            <button on:click="{() => mobilemenu = !mobilemenu}" class="text-4xl absolute top-4 right-4">&times;</button>
+            <a href="" class="inline-block mx-4 p-4">Products</a>
+            <a href="" class="inline-block mx-4 p-4">
+                Features
+            </a>
+            <a href="" class="inline-block mx-4 p-4">
+                About
+            </a>
+            <a href="" class="inline-block  p-4">
+                Contact
+            </a>
+            <div>
+                <a href="" class="inline-block mx-4 p-4">
+                Login
+            </a>
+            <a href="" class="inline-block ml-4 py-[14px] px-8 bg-[#3671E9] rounded-3xl">
+                Register
+            </a>
+            </div>
+            
+        </div>
+        {/if}
     </nav>
     <section class="text-white bg-contain flex w-10/12 mx-auto py-6 lg:flex-row flex-col">
         <div class="basis-1/2 lg:py-24 py-6">

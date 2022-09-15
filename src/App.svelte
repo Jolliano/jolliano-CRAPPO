@@ -83,7 +83,7 @@ let btchover, ethhover, ltchover, mobilemenu
             <div class="bg-white bg-opacity-10 lg:py-3 py-2 pr-6 rounded-[32px] my-6 lg:mb-14 mb-3 w-fit lg:text-2xl text-[12px] text-[#b0b0b0] ">
                 <span class="bg-white text-black font-bold lg:px-6 px-3 lg:mr-4 mr-2 lg:py-3 py-2 rounded-[32px]">75% SAVE</span> For the Black Friday Weekend
             </div>
-            <p class="lg:text-[80px] text-3xl lg:font-bold">
+            <p class="lg:text-[80px] text-3xl leading-normal lg:font-bold">
                 Fastest & Secure Platform To Invest In Crypto
             </p>
             <p class="lg:text-xl text-lg leading-relaxed lg:py-8 py-3 text-[#E0E0E0]">
@@ -373,7 +373,7 @@ let btchover, ethhover, ltchover, mobilemenu
     <div class="basis-1/6"></div>
     <!--Quick Links-->
     <div class="lg:py-0 py-6  basis-1/6">
-       <h2 class="text-3xl pb-2">
+       <h2 class="text-2xl pb-2">
             Quick Links
        </h2>
         <a href="" class="block text-[#F2F2F2] text-md py-1">Home</a>
@@ -384,7 +384,7 @@ let btchover, ethhover, ltchover, mobilemenu
     </div>
     <!--Resources Column-->
     <div class="lg:py-0 py-6 basis-1/6">
-        <h2 class="text-3xl pb-2">
+        <h2 class="text-2xl pb-2">
             Resources  
        </h2>
         <a href="" class="block text-[#F2F2F2] text-md py-1">Download Whitepapper</a>
@@ -395,7 +395,7 @@ let btchover, ethhover, ltchover, mobilemenu
     </div>
     <!--Payment Methods-->
     <div class="lg:py-0 py-6  basis-2/6">
-        <h2 class="lg:text-5xl text-3xl font-bold pb-16">
+        <h2 class="text-3xl font-bold pb-16">
             We accept following payment methods
        </h2>
        <div class="flex justify-between">

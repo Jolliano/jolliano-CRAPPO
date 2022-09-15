@@ -32,27 +32,28 @@ let ethhover, ltchover
             </a>
         </div>
     </nav>
-    <section class="text-white bg-contain flex w-10/12 mx-auto py-6">
+    <section class="text-white bg-contain flex w-10/12 mx-auto py-6 lg:flex-row flex-col">
         <div class="basis-1/2 py-24">
             <!---Value Proposition-->
             <div class="bg-white bg-opacity-10 py-3 pr-6 rounded-[32px] my-6 mb-14 w-fit text-2xl text-[#b0b0b0] ">
                 <span class="bg-white text-black font-bold px-6 mr-4 py-3 rounded-[32px]">75% SAVE</span> For the Black Friday Weekend
             </div>
-            <p class="text-[80px] font-bold">
-                Fastest & secure platform to invest in crypto
+            <p class="lg:text-[80px] text-2xl font-bold">
+                Fastest & Secure Platform To Invest In Crypto
             </p>
-            <p class="text-xl leading-relaxed py-8 text-[#E0E0E0]">
-                Buy and sell cryptocurrencies, trusted by 10M wallets <br> with over $30 billion in transactions.
+            <p class="lg:text-xl text-lg leading-relaxed py-8 text-[#E0E0E0]">
+                Buy and sell cryptocurrencies, trusted by 10M wallets <br class="lg:block hidden"> with over $30 billion in transactions.
             </p>
-            <button class="bg-[#3671E9] py-4 rounded-full font-bold text-2xl flex justify-between place-items-center">
-                <div class="ml-6">Try for FREE</div>
-                <div class="bg-white text-[#3671E9] ml-2 mr-6 py-2 px-4 rounded-full">></div>
+            <button class="bg-[#3671E9] lg:py-4 py-2 rounded-full font-bold lg:text-2xl flex justify-between place-items-center">
+                <div class="lg:ml-6 ml-4">Try for FREE</div>
+                <div class="bg-white text-[#3671E9] ml-2 lg:mr-6 mr-4 py-2 lg:px-4 px-3 rounded-full">></div>
             </button>
         </div>
-        <div class="bg-[url('../assets/hero-img.png')] basis-1/2 bg-no-repeat bg-center bg-contain">
+        <div class="bg-[url('../assets/hero-img.png')] basis-1/2 bg-no-repeat bg-center bg-contain md:min-h-[600*x]] min-h-[300px]">
         </div>
     </section>
   </header>
+<!---MOBILE DONE-->
   <!--Section 2-->
   <section class="  bg-cover bg-no-repeat lg:py-24 py-6 bg-top  bg-[url('../assets/whyCAPPRO.svg')]">
   <section class="lg:h-screen w-10/12 mx-auto text-white ">
@@ -119,7 +120,6 @@ let ethhover, ltchover
     </main>
   </section>
   </section>
-  <!---MOBILE DONE-->
   
   <!--Check How Much-->
   <section class="lg:pt-48 pt-6 lg:pb-72 pb-52 px-2 text-white text-center">

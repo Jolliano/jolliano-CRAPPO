@@ -53,7 +53,7 @@ let btchover, ethhover, ltchover, mobilemenu
         </div>
         <!--Mobile Menu-->
         {#if mobilemenu}
-        <div class="bg-[#0D0D2B] text-white justify-center text-center h-screen items-center text-2xl fixed w-full flex flex-col z-50">
+        <div class="bg-[#0D0D2B] text-white justify-center text-center h-screen items-center text-2xl fixed top-0 w-full flex flex-col z-50">
             <button on:click="{() => mobilemenu = !mobilemenu}" class="text-4xl absolute top-4 right-4">&times;</button>
             <a href="" class="inline-block mx-4 p-4">Products</a>
             <a href="" class="inline-block mx-4 p-4">

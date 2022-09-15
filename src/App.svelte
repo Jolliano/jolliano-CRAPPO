@@ -35,8 +35,8 @@ let ethhover, ltchover
     <section class="text-white bg-contain flex w-10/12 mx-auto py-6 lg:flex-row flex-col">
         <div class="basis-1/2 lg:py-24 py-6">
             <!---Value Proposition-->
-            <div class="bg-white bg-opacity-10 py-3 pr-6 rounded-[32px] my-6 lg:mb-14 mb-3 w-fit lg:text-2xl text-[12px] text-[#b0b0b0] ">
-                <span class="bg-white text-black font-bold px-6 lg:mr-4 mr-2 py-3 rounded-[32px]">75% SAVE</span> For the Black Friday Weekend
+            <div class="bg-white bg-opacity-10 lg:py-3 py-2 pr-6 rounded-[32px] my-6 lg:mb-14 mb-3 w-fit lg:text-2xl text-[12px] text-[#b0b0b0] ">
+                <span class="bg-white text-black font-bold lg:px-6 px-3 lg:mr-4 mr-2 lg:py-3 py-2 rounded-[32px]">75% SAVE</span> For the Black Friday Weekend
             </div>
             <p class="lg:text-[80px] text-3xl lg:font-bold">
                 Fastest & Secure Platform To Invest In Crypto

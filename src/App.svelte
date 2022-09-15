@@ -236,44 +236,44 @@ let ethhover, ltchover
 
   <section class="bg-[#2B076E] p-0">
   <section class="w-10/12 mx-auto bg-[url('../assets/features-circle-1.png')] bg-no-repeat bg-left-top ">
-    <h2 class="lg:text-6xl text-4xl font-bold leading-tight lg:py-24 py-12 text-white lg:w-9/12 w-11/12 mx-auto text-center">
+    <h2 class="lg:text-6xl text-xl font-bold leading-tight lg:py-24 py-6 text-white lg:w-9/12 w-11/12 mx-auto text-center">
         Market sentiments, portfolio, and run the infrastructure of your choice
     </h2>
-    <div class="flex justify-between text-white py-12 lg:flex-row flex-col">
+    <div class="flex justify-between text-white lg:py-12 py-4 lg:flex-row flex-col">
         <div class="basis-[45%] lg:py-12 py-6">
-            <h2 class="text-4xl font-bold pt-6">
+            <h2 class="lg:text-4xl text-2xl font-bold lg:pt-6 pt-0">
                 Invest Smart
             </h2>
-            <p class="text-xl lg:py-12 py-6 text-[#E0E0E0]">
+            <p class="lg:text-xl text-lg lg:py-12 py-6 text-[#E0E0E0]">
                 Get full statistic information about the behaviour of buyers and sellers will help you to make the decision. 
             </p>
-            <button class="lg:my-12 my-4 lg:mb-36 mb-12 bg-[#3671E9] py-4 px-6 rounded-full font-bold text-lg">
+            <button class="lg:my-12 my-4 lg:mb-36 mb-12 bg-[#3671E9] py-4 px-6 rounded-full font-bold lg:text-lg text-md">
                 Learn More
             </button>
         </div>
-        <div class="basis-[55%] bg-[url('../assets/feature-1-img.png')] bg-contain bg-no-repeat min-h-[427px] ">
+        <div class="basis-[55%] bg-[url('../assets/feature-1-img.png')] bg-contain bg-no-repeat md:min-h-[427px] min-h-[200px] ">
 
         </div>
     </div>
 
-    <div class="flex justify-between text-white py-12 lg:my-24 my-0 lg:flex-row flex-col-reverse">
-        <div class="basis-[62%] bg-[url('../assets/feature-2-img.png')] bg-contain bg-no-repeat lg:-ml-44 ml-0 min-h-[453px]">
+    <div class="flex justify-between text-white lg:py-12 py-4 lg:my-24 my-0 lg:flex-row flex-col-reverse">
+        <div class="basis-[62%] bg-[url('../assets/feature-2-img.png')] bg-contain bg-no-repeat lg:-ml-44 ml-0 md:min-h-[453px] min-h-[203px]">
 
         </div>
-        <div class="basis-[45%] py-8 lg:my-32 lg:mb-32 mb-12">
+        <div class="basis-[45%] lg:py-8 pb-2 lg:my-32 lg:mb-32 mb-0">
             <h2 class="lg:text-4xl text-2xl font-bold">
                 Detailed Statistics
             </h2>
             <p class="lg:text-xl text-lg lg:py-12 py-6 lg:w-[70%] text-[#E0E0E0]">
                 View all mining related information in realtime, at any point at any location and decide which polls you want to mine in.
             </p>
-            <button class="mt-4 bg-[#3671E9] py-4 px-6 rounded-full font-bold lg:text-lg text-md">
+            <button class="mt-4 bg-[#3671E9] py-4 px-6 lg:mb-0 mb-8  rounded-full font-bold lg:text-lg text-md">
                 Learn More
             </button>
         </div>
     </div>
 
-    <div class="flex justify-between text-white lg:py-16 py-2 lg:pb-16 pb-0 lg:mt-24 mt-0 lg:flex-row flex-col">
+    <div class="flex justify-between text-white lg:py-12 py-4 lg:mt-24 mt-0 lg:flex-row flex-col">
         <div class="basis-[40%] lg:pb-8 pb-2 my-0">
             <h2 class="lg:text-4xl text-2xl font-bold lg:w-[80%] w-full">
                 Grow your profit and track your investments
@@ -285,10 +285,11 @@ let ethhover, ltchover
                 Learn More
             </button>
         </div>
-        <div class="basis-[60%] bg-[url('../assets/feature-3-img.png')] bg-contain bg-no-repeat lg:min-h-[334px] min-h-[134px] mt-0">
+        <div class="basis-[60%] bg-[url('../assets/feature-3-img.png')] bg-contain bg-no-repeat md:min-h-[334px] min-h-[134px] mt-0">
 
         </div>
     </div>
+
   </section>
   </section>
 

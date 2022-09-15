@@ -135,7 +135,7 @@ let ethhover, ltchover
   <section class="bg-[#fbfafd]">
     <div class="bg-[#FBFCFE] lg:w-8/12 w-11/12 mx-auto lg:py-16 py-8 px-12 -mt-48 absolute left-1/2 transform -translate-x-1/2 rounded-2xl shadow-lg">
        <div class="flex justify-between text-black lg:text-3xl text-xl font-semibold lg:pb-12 pb-3 lg:flex-row flex-col">
-        <input type="text" value="Enter your hash rate" class="lg:w-6/12 w-full text-black border-b-4 focus:outline-0 lg:m-0 my-6">
+        <input type="text" value="Enter your hash rate" class="lg:w-6/12 w-full text-black border-b-4 focus:outline-0 lg:m-0 my-6 bg-transparent">
         <select name="speed" id="" class="lg:w-2/12 w-full focus:outline-0 lg:mt-0 lg:my-6 my-2">
             <option value="">TH/s</option>
             <option value="">H/s</option>
@@ -236,7 +236,7 @@ let ethhover, ltchover
 
   <section class="bg-[#2B076E] p-0">
   <section class="w-10/12 mx-auto bg-[url('../assets/features-circle-1.png')] bg-no-repeat bg-left-top ">
-    <h2 class="lg:text-6xl text-xl font-bold leading-tight lg:py-24 py-6 text-white lg:w-9/12 w-11/12 mx-auto text-center">
+    <h2 class="lg:text-6xl text-2xl font-bold leading-tight lg:py-24 py-6 text-white lg:w-9/12 w-11/12 mx-auto text-center">
         Market sentiments, portfolio, and run the infrastructure of your choice
     </h2>
     <div class="flex justify-between text-white lg:py-12 py-4 lg:flex-row flex-col">
@@ -298,7 +298,7 @@ let ethhover, ltchover
   <section class="bg-gradient-to-b from-[#2B076E] to-[#0D0D2B] lg:py-24 py-8">
     <section class="flex justify-between w-10/12 mx-auto bg-[url('../assets/newsletter-box.png')] bg-cover rounded-3xl py-10 text-white lg:flex-row flex-col">
         <div class="basis-1/3">
-            <h2 class="lg:text-5xl text-3xl font-bold py-6 lg:pl-12 lg:0 lg:text-left text-center">
+            <h2 class="lg:text-5xl text-2xl font-bold py-6 lg:pl-12 lg:0 lg:text-left text-center">
                 Start mining now
             </h2>
             <p class="py-5 lg:pt-5 pt-0 lg:pl-12 lg:px-0 px-4 lg:text-2xl text-lg lg:text-left text-center">
@@ -307,10 +307,10 @@ let ethhover, ltchover
         </div>
         <div class="lg:basis-2/4 basis-full flex justify-between place-items-center lg:pr-12 pr-0 lg:flex-row flex-col">
             <div class="basis-2/3">
-                <input type="text" value="Enter your mail" class="bg-transparent mx-auto lg:text-2xl text-xl border-b-2 focus:outline-0 lg:mb-0 mb-4">
+                <input type="text" value="Enter your mail" class="bg-transparent mx-auto lg:text-2xl text-lg border-b-2 focus:outline-0 lg:mb-0 mb-4">
             </div>
             <div>
-                <button class="bg-white text-[#3671E9] py-4 px-6 rounded-full font-bold text-2xl">
+                <button class="bg-white text-[#3671E9] py-4 px-6 rounded-full font-bold lg:text-2xl text-md">
                     Subscribe
                 </button>
             </div>
@@ -331,22 +331,22 @@ let ethhover, ltchover
        <h2 class="text-3xl pb-2">
             Quick Links
        </h2>
-        <a href="" class="block text-[#F2F2F2] text-xl py-1">Home</a>
-        <a href="" class="block text-[#F2F2F2] text-xl py-1">Products</a>
-        <a href="" class="block text-[#F2F2F2] text-xl py-1">About</a>
-        <a href="" class="block text-[#F2F2F2] text-xl py-1">Features</a>
-        <a href="" class="block text-[#F2F2F2] text-xl py-1">Contact</a>
+        <a href="" class="block text-[#F2F2F2] text-md py-1">Home</a>
+        <a href="" class="block text-[#F2F2F2] text-md py-1">Products</a>
+        <a href="" class="block text-[#F2F2F2] text-md py-1">About</a>
+        <a href="" class="block text-[#F2F2F2] text-md py-1">Features</a>
+        <a href="" class="block text-[#F2F2F2] text-md py-1">Contact</a>
     </div>
     <!--Resources Column-->
     <div class="lg:py-0 py-6 basis-1/6">
         <h2 class="text-3xl pb-2">
             Resources  
        </h2>
-        <a href="" class="block text-[#F2F2F2] text-xl py-1">Download Whitepapper</a>
-        <a href="" class="block text-[#F2F2F2] text-xl py-1">Smart Token</a>
-        <a href="" class="block text-[#F2F2F2] text-xl py-1">Blockchain Explorer</a>
-        <a href="" class="block text-[#F2F2F2] text-xl py-1">Crypto API</a>
-        <a href="" class="block text-[#F2F2F2] text-xl py-1">Interest</a>
+        <a href="" class="block text-[#F2F2F2] text-md py-1">Download Whitepapper</a>
+        <a href="" class="block text-[#F2F2F2] text-md py-1">Smart Token</a>
+        <a href="" class="block text-[#F2F2F2] text-md py-1">Blockchain Explorer</a>
+        <a href="" class="block text-[#F2F2F2] text-md py-1">Crypto API</a>
+        <a href="" class="block text-[#F2F2F2] text-md py-1">Interest</a>
     </div>
     <!--Payment Methods-->
     <div class="lg:py-0 py-6  basis-2/6">

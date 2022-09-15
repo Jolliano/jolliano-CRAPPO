@@ -406,6 +406,7 @@ let ethhover, ltchover
         font-weight: bolder;
     }
 
+    @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 
 @tailwind base;
 @tailwind components;

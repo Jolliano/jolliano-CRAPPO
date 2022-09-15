@@ -420,6 +420,10 @@ let btchover, ethhover, ltchover, mobilemenu
         <img src="../assets/socials.png" alt="" class="mx-auto">
     </div>
   </footer>
+
+  <section class="text-center font-bold text-xl bg-white p-3">
+    Designed by Jolliano
+  </section>
 </main>
 
 <style lang="postcss">

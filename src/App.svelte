@@ -160,12 +160,12 @@ let ethhover, ltchover
         Revenue will change based on mining difficulty and Ethereum price.
        </p>
     </div>
-    <div class="lg:w-10/12 w-full mx-auto lg:pt-96 pt-56 pb-12 text-black text-center lg:text-6xl text-3xl leading-relaxed">
+    <div class="lg:w-10/12 w-full mx-auto lg:pt-96 pt-52 lg:pb-12 pb-3 text-black text-center lg:text-6xl text-3xl leading-relaxed">
         <p class="py-12 lg:w-8/12 w-full mx-auto lg:px-0 px-3 font-bold">Trade securely and market the high growth cryptocurrencies.</p>
         <div class="flex justify-between lg:flex-row flex-col">
-            <div class="basis-[30%] place-items-center grid lg:py-12 py-6 rounded-3xl mb-12 lg:mb-0 px-6 lg:mx-0 mx-6" class:btchover>
+            <div class="basis-[30%] place-items-center grid lg:py-12 py-6 rounded-3xl mb-6 lg:mb-0 px-6 lg:mx-0 mx-6" class:btchover>
                 <img src="../assets/bitcon.png" alt="" class="lg:mt-6 mt-2 lg:mb-12 mb-4">
-                <div class="flex place-items-center lg:mb-12 mb-6">
+                <div class="flex place-items-center lg:mb-12 mb-4">
                     <div class="lg:text-4xl text-2xl font-bold px-4">
                         Bitcoin
                     </div>
@@ -173,21 +173,21 @@ let ethhover, ltchover
                         BTC
                     </div>
                 </div>
-                <p class="lg:text-2xl text-xl text-[#828282] lg:mb-6 mb-2">
+                <p class="lg:text-2xl text-lg text-[#828282] lg:mb-6 mb-2">
                     Digital currency in which a record of transactions is maintained.
                 </p>
                 <button on:click="{() => btchover = !btchover}"  class="mt-18 flex place-items-center p-4 py-4 rounded-[32px] bg-transparent h-fit leading-none" id="manner">
-                    <span class="lg:text-3xl text-xl my-0 px-4 hidden ">
+                    <span class="lg:text-3xl text-lg my-0 px-4 hidden ">
                         Start mining
                     </span>
-                    <span class="lg:text-3xl text-xl text-[#3671E9] bg-white py-6 px-9 rounded-full border-2 border-[rgba(43, 7, 110, 0.2)]" id="arrow">
+                    <span class="lg:text-3xl text-lg text-[#3671E9] bg-white py-6 px-9 rounded-full border-2 border-[rgba(43, 7, 110, 0.2)]" id="arrow">
                     >
                     </span>
                 </button>
             </div>
-            <div class="basis-[30%] place-items-center grid lg:py-12 py-6 rounded-3xl mb-12 lg:mb-0 px-6 lg:mx-0 mx-6" class:ethhover>
+            <div class="basis-[30%] place-items-center grid lg:py-12 py-6 rounded-3xl mb-6 lg:mb-0 px-6 lg:mx-0 mx-6" class:ethhover>
                 <img src="../assets/ethereum.png" alt="" class="lg:mt-6 mt-2 lg:mb-12 mb-4">
-                <div class="flex place-items-center lg:mb-12 mb-6">
+                <div class="flex place-items-center lg:mb-12 mb-4">
                     <div class="lg:text-4xl text-2xl font-bold px-4">
                         Ethereum
                     </div>
@@ -195,21 +195,21 @@ let ethhover, ltchover
                         ETH
                     </div>
                 </div>
-                <p class="lg:text-2xl text-xl text-[#828282] lg:mb-6 mb-2">
+                <p class="lg:text-2xl text-lg text-[#828282] lg:mb-6 mb-2">
                     Blockchain technology to create and run decentralized digital applications.
                 </p>
                 <button on:click="{() => ethhover = !ethhover}"  class="mt-18 flex place-items-center p-4 py-4 rounded-[32px] bg-transparent h-fit leading-none" id="manner">
-                    <span class="lg:text-3xl text-xl my-0 px-4 hidden ">
+                    <span class="lg:text-3xl text-lg my-0 px-4 hidden ">
                         Start mining
                     </span>
-                    <span class="lg:text-3xl text-xl text-[#3671E9] bg-white py-6 px-9 rounded-full border-2 border-[rgba(43, 7, 110, 0.2)]" id="arrow">
+                    <span class="lg:text-3xl text-lg text-[#3671E9] bg-white py-6 px-9 rounded-full border-2 border-[rgba(43, 7, 110, 0.2)]" id="arrow">
                     >
                     </span>
                 </button>
             </div>
-            <div class="basis-[30%] place-items-center grid lg:py-12 py-6 rounded-3xl mb-12 lg:mb-0 px-6 lg:mx-0 mx-6" class:ltchover>
+            <div class="basis-[30%] place-items-center grid lg:py-12 py-6 rounded-3xl mb-6 lg:mb-0 px-6 lg:mx-0 mx-6" class:ltchover>
                 <img src="../assets/litecoin.png" alt="" class="lg:mt-6 mt-2 lg:mb-12 mb-4">
-                <div class="flex place-items-center mb-12">
+                <div class="flex place-items-center lg:mb-12 mb-4">
                     <div class="lg:text-4xl text-2xl font-bold px-4">
                         Litecoin
                     </div>
@@ -217,14 +217,14 @@ let ethhover, ltchover
                         LTC
                     </div>
                 </div>
-                <p class="lg:text-2xl text-xl text-[#828282] lg:mb-6 mb-2">
+                <p class="lg:text-2xl text-lg text-[#828282] lg:mb-6 mb-2">
                     Cryptocurrency that enables instant payments to anyone in the world.
                 </p>
                 <button on:click="{() => ltchover = !ltchover}"  class="mt-18 flex place-items-center p-4 py-4 rounded-[32px] bg-transparent h-fit leading-none" id="manner">
-                    <span class="lg:text-3xl text-xl my-0 px-4 hidden ">
+                    <span class="lg:text-3xl text-lg my-0 px-4 hidden ">
                         Start mining
                     </span>
-                    <span class="lg:text-3xl text-xl text-[#3671E9] bg-white py-6 px-9 rounded-full border-2 border-[rgba(43, 7, 110, 0.2)]" id="arrow">
+                    <span class="lg:text-3xl text-lg text-[#3671E9] bg-white py-6 px-9 rounded-full border-2 border-[rgba(43, 7, 110, 0.2)]" id="arrow">
                     >
                     </span>
                 </button>

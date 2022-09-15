@@ -8,7 +8,7 @@ let ethhover, ltchover
 
 <main class="font-[Rubik] bg-[#0D0D2B]">
     <!--The Header Section-->
-  <header class="lg:h-screen py-8 bg-[url('../assets/hero-ribbon-1.png')] bg-left">
+  <header class="lg:h-screen lg:py-8 py-2 bg-[url('../assets/hero-ribbon-1.png')] bg-left">
     <nav class="flex w-10/12 mx-auto justify-between p-0">
         <div class="p-4 px-0">
             <img src="../assets/logo.svg" alt="">
@@ -33,15 +33,15 @@ let ethhover, ltchover
         </div>
     </nav>
     <section class="text-white bg-contain flex w-10/12 mx-auto py-6 lg:flex-row flex-col">
-        <div class="basis-1/2 py-24">
+        <div class="basis-1/2 lg:py-24 py-6">
             <!---Value Proposition-->
-            <div class="bg-white bg-opacity-10 py-3 pr-6 rounded-[32px] my-6 mb-14 w-fit text-2xl text-[#b0b0b0] ">
+            <div class="bg-white bg-opacity-10 py-3 pr-6 rounded-[32px] my-6 lg:mb-14 mb-3 w-fit lg:text-2xl text-[12px] text-[#b0b0b0] ">
                 <span class="bg-white text-black font-bold px-6 mr-4 py-3 rounded-[32px]">75% SAVE</span> For the Black Friday Weekend
             </div>
-            <p class="lg:text-[80px] text-2xl font-bold">
+            <p class="lg:text-[80px] text-3xl lg:font-bold">
                 Fastest & Secure Platform To Invest In Crypto
             </p>
-            <p class="lg:text-xl text-lg leading-relaxed py-8 text-[#E0E0E0]">
+            <p class="lg:text-xl text-lg leading-relaxed lg:py-8 py-3 text-[#E0E0E0]">
                 Buy and sell cryptocurrencies, trusted by 10M wallets <br class="lg:block hidden"> with over $30 billion in transactions.
             </p>
             <button class="bg-[#3671E9] lg:py-4 py-2 rounded-full font-bold lg:text-2xl flex justify-between place-items-center">
@@ -49,7 +49,7 @@ let ethhover, ltchover
                 <div class="bg-white text-[#3671E9] ml-2 lg:mr-6 mr-4 py-2 lg:px-4 px-3 rounded-full">></div>
             </button>
         </div>
-        <div class="bg-[url('../assets/hero-img.png')] basis-1/2 bg-no-repeat bg-center bg-contain md:min-h-[600*x]] min-h-[300px]">
+        <div class="bg-[url('../assets/hero-img.png')] basis-1/2 bg-no-repeat bg-center bg-contain min-h-[300px]">
         </div>
     </section>
   </header>
